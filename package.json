@@ -1,0 +1,17 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "main": "./dist/main.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "yarn run build && electron ."
+  },
+  "dependencies": {
+    "electron": "^16.0.5",
+    "typescript": "^4.5.4"
+  },
+  "devDependencies": {
+    "@types/electron": "^1.6.10"
+  }
+}
